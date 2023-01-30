@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RentalApp.Core;
 using RentalApp.Core.Domain;
+using RentalApp.Core.Dto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +21,6 @@ namespace RentalApp.Data
              : base(options)
         {
         }
-
 
         public virtual DbSet<User> Users { get; set; } = null!;
         public virtual DbSet<AcentePersonelLoglar> AcentePersonelLoglars { get; set; } = null!;

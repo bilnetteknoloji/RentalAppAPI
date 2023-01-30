@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MapsterMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RentalApp.Core;
+using RentalApp.Core.Dto;
 using RentalApp.Data;
 using RentalApp.Service.Impl.Products;
 using RentalApp.Service.Services.Products;
@@ -13,6 +15,7 @@ namespace RentalApp.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IProductService _productsService;
+
 
         public ProductController(IProductService productsService)
         {

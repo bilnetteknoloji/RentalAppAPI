@@ -1,17 +1,18 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using RentalApp;
+using RentalApp.Core.Dto;
+using RentalApp.Core;
 using RentalApp.Data;
 using RentalApp.Data.Repository;
 using RentalApp.Service;
 using RentalApp.Service.Services;
 using RentalApp.Service.Services.Products;
-using Mapster;
 
 var builder = WebApplication.CreateBuilder(args);
 var services = builder.Services;
 services.AddControllers().AddControllersAsServices().AddXmlDataContractSerializerFormatters();
-
 
 string[] RentalDb =
 {
@@ -44,7 +45,6 @@ builder.Services.AddCors(options =>
         builder.WithOrigins(frontendURL).AllowAnyMethod().AllowAnyHeader();
     });
 });
-
 
 var app = builder.Build();
 app.UseRouting();
