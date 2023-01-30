@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b6aec49e-308b-4dfc-8339-38634bf56e92": {
+      "ProjectGuid": "b6aec49e-308b-4dfc-8339-38634bf56e92",
+      "DisplayName": "RentalApp.Core",
+      "ColorIndex": 0
+    },
+    "913a9132-d1e8-413f-a135-b4dcdcecf0e4": {
+      "ProjectGuid": "913a9132-d1e8-413f-a135-b4dcdcecf0e4",
+      "DisplayName": "RentalApp.Data",
+      "ColorIndex": 1
+    },
+    "278ce0c4-9ce1-40b1-ad76-ac5ee4c66810": {
+      "ProjectGuid": "278ce0c4-9ce1-40b1-ad76-ac5ee4c66810",
+      "DisplayName": "RentalApp.Service",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "255458b2-c52c-4130-8827-c2413d357d28": {
+      "ProjectGuid": "255458b2-c52c-4130-8827-c2413d357d28",
+      "DisplayName": "RentalApp",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
